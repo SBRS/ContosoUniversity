@@ -256,6 +256,7 @@
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs"
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs"
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs"
+"\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs"
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs"
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs"
 "\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs"
