@@ -1,12 +1,12 @@
---temp-output:\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Release\netcoreapp1.0\
---out:\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\bin\Release\netcoreapp1.0\ContosoUniversity.dll
---define:RELEASE
+--temp-output:C:\WebApp\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
+--out:C:\WebApp\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
+--define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
 --suppress-warning:CS1701
 --suppress-warning:CS1702
 --suppress-warning:CS1705
---optimize:True
+--optimize:False
 --emit-entry-point:True
 --output-name:ContosoUniversity
 --file-version:1.0.0.0
@@ -76,10 +76,13 @@
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.DotNet.ProjectModel\1.0.0-rc3-003121\lib\netstandard1.6\Microsoft.DotNet.ProjectModel.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.DotNet.ProjectModel.Loader\1.0.0-preview2-003121\lib\netstandard1.6\Microsoft.DotNet.ProjectModel.Loader.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
+--reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.Design\1.0.0-preview2-final\lib\netcoreapp1.0\Microsoft.EntityFrameworkCore.Design.dll
+--reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.Design.Core\1.0.0-preview2-final\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Design.Core.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.Relational.Design\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.Design.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.SqlServer\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.SqlServer.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.SqlServer.Design\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+--reference:C:\Users\alexandrli\.nuget\packages\Microsoft.EntityFrameworkCore.Tools\1.0.0-preview2-final\lib\netcoreapp1.0\dotnet-ef.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\alexandrli\.nuget\packages\Microsoft.Extensions.CommandLineUtils\1.0.0\lib\netstandard1.3\Microsoft.Extensions.CommandLineUtils.dll
@@ -226,41 +229,44 @@
 --reference:C:\Users\alexandrli\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Release\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Program.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Startup.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\AccountController.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\HomeController.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\ManageController.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\StudentsController.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\ApplicationDbContext.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\DbInitializer.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\SchoolContext.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\ApplicationDbContextModelSnapshot.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ApplicationUser.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Course.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Enrollment.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Student.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ForgotPasswordViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\LoginViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\RegisterViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ResetPasswordViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\SendCodeViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\VerifyCodeViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\AddPhoneNumberViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ChangePasswordViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\FactorViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\IndexViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ManageLoginsViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs
-\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs
+--resource:"C:\WebApp\ContosoUniversity\src\ContosoUniversity\bin\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Program.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Startup.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Controllers\AccountController.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Controllers\HomeController.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Controllers\ManageController.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Controllers\StudentsController.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\ApplicationDbContext.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\DbInitializer.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\SchoolContext.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Data\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Migrations\20170824044003_MaxLengthOnNames.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Migrations\20170824044003_MaxLengthOnNames.Designer.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Migrations\SchoolContextModelSnapshot.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ApplicationUser.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\Course.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\Enrollment.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\Student.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ForgotPasswordViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\LoginViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\RegisterViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ResetPasswordViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\SendCodeViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\VerifyCodeViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\AddPhoneNumberViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ChangePasswordViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\FactorViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\IndexViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ManageLoginsViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs
+C:\WebApp\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs
