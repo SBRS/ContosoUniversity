@@ -14,16 +14,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/17/2017 09:27:34</publishTime>
     </File>
     <File Include="ContosoUniversity.deps.json">
-      <publishTime>08/17/2017 11:09:51</publishTime>
+      <publishTime>08/23/2017 15:01:29</publishTime>
     </File>
     <File Include="ContosoUniversity.dll">
-      <publishTime>08/17/2017 10:37:58</publishTime>
+      <publishTime>08/23/2017 15:01:02</publishTime>
     </File>
     <File Include="ContosoUniversity.pdb">
-      <publishTime>08/17/2017 10:37:58</publishTime>
+      <publishTime>08/23/2017 15:01:02</publishTime>
     </File>
     <File Include="ContosoUniversity.runtimeconfig.json">
-      <publishTime>08/17/2017 11:09:51</publishTime>
+      <publishTime>08/23/2017 15:01:29</publishTime>
     </File>
     <File Include="Microsoft.ApplicationInsights.AspNetCore.dll">
       <publishTime>06/22/2016 12:35:54</publishTime>
@@ -671,13 +671,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/01/2017 23:22:35</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>08/17/2017 11:09:54</publishTime>
+      <publishTime>08/23/2017 15:01:32</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>08/09/2017 22:16:02</publishTime>
     </File>
     <File Include="wwwroot/css/site.min.css">
-      <publishTime>08/01/2017 23:23:33</publishTime>
+      <publishTime>08/23/2017 15:01:24</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
       <publishTime>07/29/2015 14:26:16</publishTime>

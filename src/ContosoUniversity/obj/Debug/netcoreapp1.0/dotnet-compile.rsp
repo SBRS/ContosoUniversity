@@ -1,5 +1,5 @@
---temp-output:\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
---out:\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
+--temp-output:\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
+--out:\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -226,41 +226,41 @@
 --reference:C:\Users\alexandrli\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Program.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Startup.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\AccountController.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\HomeController.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\ManageController.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\StudentsController.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\ApplicationDbContext.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\DbInitializer.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\SchoolContext.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\ApplicationDbContextModelSnapshot.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ApplicationUser.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Course.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Enrollment.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Student.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ForgotPasswordViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\LoginViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\RegisterViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ResetPasswordViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\SendCodeViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\VerifyCodeViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\AddPhoneNumberViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ChangePasswordViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\FactorViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\IndexViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ManageLoginsViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs
-\\mac\home\documents\visual studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs
+--resource:"\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Program.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Startup.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\AccountController.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\HomeController.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\ManageController.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Controllers\StudentsController.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\ApplicationDbContext.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\DbInitializer.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\SchoolContext.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Data\Migrations\ApplicationDbContextModelSnapshot.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ApplicationUser.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Course.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Enrollment.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\Student.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ForgotPasswordViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\LoginViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\RegisterViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\ResetPasswordViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\SendCodeViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\AccountViewModels\VerifyCodeViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\AddPhoneNumberViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ChangePasswordViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\FactorViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\IndexViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\ManageLoginsViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\RemoveLoginViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\SetPasswordViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Models\SchoolViewModels\EnrollmentDateGroup.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\IEmailSender.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\ISmsSender.cs
+\\Mac\Home\Documents\Visual Studio 2015\Projects\ContosoUniversity\src\ContosoUniversity\Services\MessageServices.cs
