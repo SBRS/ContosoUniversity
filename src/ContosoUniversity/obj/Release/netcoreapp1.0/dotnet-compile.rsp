@@ -1,12 +1,12 @@
---temp-output:C:\WebApp\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\
---out:C:\WebApp\ContosoUniversity\src\ContosoUniversity\bin\Debug\netcoreapp1.0\ContosoUniversity.dll
---define:DEBUG
+--temp-output:C:\WebApp\ContosoUniversity\src\ContosoUniversity\obj\Release\netcoreapp1.0\
+--out:C:\WebApp\ContosoUniversity\src\ContosoUniversity\bin\Release\netcoreapp1.0\ContosoUniversity.dll
+--define:RELEASE
 --define:TRACE
 --define:NETCOREAPP1_0
 --suppress-warning:CS1701
 --suppress-warning:CS1702
 --suppress-warning:CS1705
---optimize:False
+--optimize:True
 --emit-entry-point:True
 --output-name:ContosoUniversity
 --file-version:1.0.0.0
@@ -229,7 +229,7 @@
 --reference:C:\Users\alexandrli\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\alexandrli\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\WebApp\ContosoUniversity\src\ContosoUniversity\obj\Debug\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
+--resource:"C:\WebApp\ContosoUniversity\src\ContosoUniversity\obj\Release\netcoreapp1.0\ContosoUniversitydotnet-compile.deps.json",ContosoUniversity.deps.json
 C:\WebApp\ContosoUniversity\src\ContosoUniversity\PaginatedList.cs
 C:\WebApp\ContosoUniversity\src\ContosoUniversity\Program.cs
 C:\WebApp\ContosoUniversity\src\ContosoUniversity\Startup.cs
