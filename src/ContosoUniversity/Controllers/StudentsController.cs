@@ -7,16 +7,23 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContosoUniversity.Data;
 using ContosoUniversity.Models;
+using System.Net.Http.Headers; //Week 6
+using Microsoft.AspNetCore.Hosting; //Week 6
+using Microsoft.AspNetCore.Http; //Week 6
+using System.IO; //Week 6
+
 
 namespace ContosoUniversity.Controllers
 {
     public class StudentsController : Controller
     {
         private readonly SchoolContext _context;
+        private readonly IHostingEnvironment _hostingEnv;
 
-        public StudentsController(SchoolContext context)
+        public StudentsController(SchoolContext context, IHostingEnvironment hEnv)
         {
-            _context = context;    
+            _context = context;
+            _hostingEnv = hEnv;
         }
 
         // GET: Students
@@ -123,8 +130,35 @@ namespace ContosoUniversity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EnrollmentDate,FirstMidName,LastName")] Student student)
+        public async Task<IActionResult> Create([Bind("EnrollmentDate,FirstMidName,LastName")] Student student, IList<IFormFile> _files)
         {
+            var relativeName = "";
+            var fileName = "";
+
+            if (_files.Count < 1)
+            {
+                relativeName = "/Images/Default.jpg";
+            }
+            else
+            {
+                foreach (var file in _files)
+                {
+                    fileName = ContentDispositionHeaderValue
+                                      .Parse(file.ContentDisposition)
+                                      .FileName
+                                      .Trim('"');
+                    //Path for localhost
+                    relativeName = "/Images/StudentImages/" + DateTime.Now.ToString("ddMMyyyy-HHmmssffffff") + fileName;
+
+                    using (FileStream fs = System.IO.File.Create(_hostingEnv.WebRootPath + relativeName))
+                    {
+                        await file.CopyToAsync(fs);
+                        fs.Flush();
+                    }
+                }
+            }
+            student.PathOfFile = relativeName;
+
             try
             {
                 if (ModelState.IsValid)
@@ -145,7 +179,7 @@ namespace ContosoUniversity.Controllers
 
             return View(student);
         }
-
+        
         // GET: Students/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

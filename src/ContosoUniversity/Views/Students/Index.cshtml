@@ -24,6 +24,9 @@
     <thead>
         <tr>
             <th>
+                Image
+            </th>
+            <th>
                 First Name
             </th>
             <th>
@@ -38,7 +41,13 @@
     <tbody>
         @foreach (var item in Model)
         {
+            var imgUrl = @Href("~" + item.PathOfFile);
+            var errImg = @Href("~/images/Unitec.jpg");
+
             <tr>
+                <td>
+                    <img style="width: 250px; height: auto;" src="@imgUrl" alt="Student Image" onerror="this.onerror = null; this.src = '@errImg'">
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.FirstMidName)
                 </td>
